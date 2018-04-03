@@ -9,14 +9,14 @@ class ArticleTemplate extends React.Component {
       author,
       date,
       article: { article },
-      coverPhoto: {
+      /*coverPhoto: {
         file: { url: coverPhoto }
-      }
+      }*/
     } = this.props.data.contentfulBlogPost;
 
     return (<div>
       <h1>{title}</h1>
-      <img src={coverPhoto} />
+      /*<img src={coverPhoto} />*/
       <sub>By {author}</sub>
       <p>{article}</p>
     </div>);
