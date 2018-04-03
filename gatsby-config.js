@@ -5,7 +5,6 @@ module.exports = {
   plugins: [
   'gatsby-plugin-react-helmet',
   // add this object:
-  /*
   {
       resolve: 'gatsby-source-google-sheets',
       options: {
@@ -13,7 +12,7 @@ module.exports = {
           worksheetTitle: 'mystery',
           //credentials: require("./InnoD\ Mystery-975d82e0c439.json")
       },
-  },*/
+  },
   {
     resolve: `gatsby-source-contentful`,
     options: {
